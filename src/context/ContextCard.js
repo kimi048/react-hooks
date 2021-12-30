@@ -1,10 +1,11 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import MyContext from './context';
 
 const ContextCard = () => {
+  const context = useContext(MyContext);
   return (
     <div>
-      
+
       <MyContext.Consumer>
         {(context) => (
           <>
