@@ -30,9 +30,9 @@ const App = ({ initialCount }) => {
     setPosts([])
   }
 
-  // useEffect(() => {
-  //   console.log(count)
-  // }, [count])
+  useEffect(() => {
+    console.log(count)
+  }, [count])
   
   // useEffect(() => {
   //   console.log("MOUNTED")
